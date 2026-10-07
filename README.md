@@ -23,7 +23,8 @@ x=4568
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="455" height="322" alt="image" src="https://github.com/user-attachments/assets/48ba1ac1-7a78-42b0-bb5c-9fb19d9a69af" />
+
 
 ## Задача 2
 
@@ -48,7 +49,10 @@ x=-5
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="418" height="319" alt="image" src="https://github.com/user-attachments/assets/441a5e30-40f9-42c6-a156-7e2ba09f21b8" />
+
+<img width="386" height="313" alt="image" src="https://github.com/user-attachments/assets/693e455b-98bc-4ebc-ad3a-4b7ae777c785" />
+
 
 ## Задача 3
 
@@ -73,7 +77,10 @@ x=’q’
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="399" height="316" alt="image" src="https://github.com/user-attachments/assets/36796513-8e72-4122-8f74-be750f2bf9a2" />
+
+<img width="394" height="308" alt="image" src="https://github.com/user-attachments/assets/86942ea1-3094-46b1-9856-a8de0b860eb8" />
+
 
 ## Задача 4
 
@@ -98,7 +105,10 @@ a=2 b=15
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="430" height="352" alt="image" src="https://github.com/user-attachments/assets/08fc0565-22bc-4b7f-9dcb-b54b5a581eac" />
+
+<img width="384" height="331" alt="image" src="https://github.com/user-attachments/assets/f4b6fa90-a2d0-43ab-aa64-32fb006f7cb7" />
+
 
 ## Задача 5
 
@@ -125,9 +135,7 @@ a=2 b=15
 
 ### Тестирование
 
-Скриншоты результата работы программы
-
-
+<img width="415" height="402" alt="image" src="https://github.com/user-attachments/assets/c432fd97-a793-4b21-a801-cfb4635d4669" />
 
 # Задание 2
 
@@ -156,7 +164,10 @@ x=8  y=2
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="307" height="349" alt="image" src="https://github.com/user-attachments/assets/5d95a8ac-6288-43bc-a5c0-91cb69053009" />
+
+<img width="302" height="342" alt="image" src="https://github.com/user-attachments/assets/39e16959-60a5-4f97-ae57-9fbc44ff51c1" />
+
 
 ## Задача 2
 
@@ -186,7 +197,12 @@ x=4  y=4
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="312" height="335" alt="image" src="https://github.com/user-attachments/assets/4f2799e3-71a9-40d6-9d86-9c64529b3fd9" />
+
+<img width="346" height="331" alt="image" src="https://github.com/user-attachments/assets/0b0589f5-d5b3-4dbb-8f4f-d2e7ce1e028a" />
+
+<img width="322" height="334" alt="image" src="https://github.com/user-attachments/assets/efe4fde7-9d66-45ce-926e-7155b1756b8b" />
+
 
 ## Задача 3
 
@@ -212,7 +228,10 @@ x=8  y=-1  z=4
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="305" height="356" alt="image" src="https://github.com/user-attachments/assets/4d692b31-6d44-40f9-a25a-ce5477d31365" />
+
+<img width="269" height="371" alt="image" src="https://github.com/user-attachments/assets/b3c3a391-0394-4e68-b0ac-31f92c13ec17" />
+
 
 ## Задача 4
 
@@ -249,7 +268,12 @@ x=44
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="271" height="304" alt="image" src="https://github.com/user-attachments/assets/5cabc2af-9a96-46ed-bfba-ece5fd08d78c" />
+
+<img width="358" height="310" alt="image" src="https://github.com/user-attachments/assets/69b54ecd-212e-491e-9504-ff9a956f4739" />
+
+<img width="272" height="320" alt="image" src="https://github.com/user-attachments/assets/a5ef84ea-afb1-4dee-a5e7-3ca186b0a0a0" />
+
 
 ## Задача 5
 
@@ -283,7 +307,10 @@ x=”чг”
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="378" height="404" alt="image" src="https://github.com/user-attachments/assets/28ab98cf-fc2f-4d9c-ace5-36b2468b87f3" />
+
+<img width="321" height="332" alt="image" src="https://github.com/user-attachments/assets/99f51de9-8708-4905-beed-880b3d117e58" />
+
 
 # Задание 3
 
@@ -306,7 +333,8 @@ x=5
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="404" height="308" alt="image" src="https://github.com/user-attachments/assets/54de3f97-d320-4eb0-bec8-f44365d31c50" />
+
 
 ## Задача 2
 
@@ -323,22 +351,14 @@ x=5
 x=2 
 y=5 
 результат: 32
- 
-Пример 1: 
-x=3 
-результат: true 
- 
-Пример 2: 
-x=-5 
-результат: false
 
 ### Алгоритм решения
 
-В цикле от 1 до y умножать число само на себя, вернуть это число
+В методе задать переменную со значением 1, в цикле от 0 до y умножать эту переменную на x, вернуть эту переменную
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="272" height="333" alt="image" src="https://github.com/user-attachments/assets/65b02b72-2419-4cfd-b09b-11a2aa23d209" />
 
 ## Задача 3
 
@@ -366,7 +386,10 @@ x=1211
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="277" height="308" alt="image" src="https://github.com/user-attachments/assets/aeeb7c31-5cc5-43e0-8cb5-51e4de587d07" />
+
+<img width="326" height="319" alt="image" src="https://github.com/user-attachments/assets/5f1a3d28-983d-48d2-b407-7b8171e0235a" />
+
 
 ## Задача 4
 
@@ -398,7 +421,10 @@ x=4
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="300" height="346" alt="image" src="https://github.com/user-attachments/assets/a3fa964c-e428-44a6-a2d0-7d2229fcf555" />
+
+<img width="293" height="414" alt="image" src="https://github.com/user-attachments/assets/f3ad570d-68d4-4caa-a588-c34aeed799a1" />
+
 
 ## Задача 5
 
@@ -427,7 +453,7 @@ x=4
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="454" height="566" alt="image" src="https://github.com/user-attachments/assets/9f37568b-597e-4396-9f6c-4d8a4bbe3448" />
 
 # Задание 4
 
@@ -452,7 +478,9 @@ x=2
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="360" height="362" alt="image" src="https://github.com/user-attachments/assets/12c8a110-e007-4baf-ba77-4f0b20896337" />
+
+<img width="352" height="358" alt="image" src="https://github.com/user-attachments/assets/9b15b50c-da5c-41a9-8c22-6e6fc17adad4" />
 
 ## Задача 2
 
@@ -476,7 +504,7 @@ pos=3
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="417" height="422" alt="image" src="https://github.com/user-attachments/assets/07ed1ffc-a975-4757-a992-0a654bb42fe1" />
 
 ## Задача 3
 
@@ -497,7 +525,7 @@ arr=[1,2,3,4,5]
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="423" height="372" alt="image" src="https://github.com/user-attachments/assets/f2936dad-26a9-4711-aa4c-e084b4bcd198" />
 
 ## Задача 4
 
@@ -520,7 +548,7 @@ arr2=[7,8,9]
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="462" height="414" alt="image" src="https://github.com/user-attachments/assets/71722139-bc31-47d9-a45c-fd1b44b3ddf3" />
 
 ## Задача 5
 
@@ -541,4 +569,4 @@ arr=[1,2,-3,4,-2,2,-5]
 
 ### Тестирование
 
-Скриншоты результата работы программы
+<img width="384" height="357" alt="image" src="https://github.com/user-attachments/assets/d8628cf1-e174-40fc-be09-5aefd47989ec" />
