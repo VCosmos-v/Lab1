@@ -1,4 +1,5 @@
 using System.ComponentModel.Design;
+using static System.Net.Mime.MediaTypeNames;
 
 internal class Program
 {
@@ -11,13 +12,30 @@ internal class Program
     public void Menu()
     {
         Program menu = new Program();
-        int num;
+        string text;
+        int num = 0;
         Console.WriteLine("1. Çàäàíèå 1. Ìåòîäû");
         Console.WriteLine("2. Çàäàíèå 2. Óñëîâèÿ");
         Console.WriteLine("3. Çàäàíèå 3. Öèêëû");
         Console.WriteLine("4. Çàäàíèå 4. Ìàññèâû");
         Console.Write("Âûáåğèòå çàäàíèå: ");
-        num = Convert.ToInt32(Console.ReadLine());
+        text = Console.ReadLine();
+        while (num > 4 || num < 1)
+        {
+            while (!int.TryParse(text, out _))
+            {
+                Console.WriteLine("Ââåäåí íåêîğåêòíûé ñèìâîë");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+            num = Convert.ToInt32(text);
+            if (num > 4 || num < 1)
+            {
+                Console.WriteLine("Ââåäåíî íåêîğåêòíîå ÷èñëî");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+        }
         switch (num)
         {
             case 1:
@@ -50,14 +68,31 @@ internal class Program
     public void FirstTask()
     {
         Methods metod = new Methods();
-        int num;
+        string text;
+        int num = 0;
         Console.WriteLine("1. Ñóììà ïîñëåäíèõ äâóõ çíàêîâ");
         Console.WriteLine("2. Ïîëîæèòåëüíîå ëè ÷èñëî");
         Console.WriteLine("3. Åñòü ëè áóêâà ñğåäè A-Z");
         Console.WriteLine("4. Äåëèòåëü");
         Console.WriteLine("5. Ñóììà öèôğ èç ğàçğÿäà åäèíèö");
         Console.Write("Âûáåğèòå çàäà÷ó: ");
-        num = Convert.ToInt32(Console.ReadLine());
+        text = Console.ReadLine();
+        while (num > 4 || num < 1)
+        {
+            while (!int.TryParse(text, out _))
+            {
+                Console.WriteLine("Ââåäåí íåêîğåêòíûé ñèìâîë");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+            num = Convert.ToInt32(text);
+            if (num > 4 || num < 1)
+            {
+                Console.WriteLine("Ââåäåíî íåêîğåêòíîå ÷èñëî");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+        }
         switch (num)
         {
             case 1:
@@ -136,14 +171,31 @@ internal class Program
     public void SecondTask()
     {
         Methods metod = new Methods();
-        int num;
+        string text;
+        int num = 0;
         Console.WriteLine("1. Áåçîïàñíîå äåëåíèå");
         Console.WriteLine("2. Ñòğîêà ñğàâíåíèÿ");
         Console.WriteLine("3. Òğîéíàÿ ñóììà");
         Console.WriteLine("4. Âîçğàñò");
         Console.WriteLine("5. Âûâîä äíåé íåäåëè");
         Console.Write("Âûáåğèòå çàäà÷ó: ");
-        num = Convert.ToInt32(Console.ReadLine());
+        text = Console.ReadLine();
+        while (num > 4 || num < 1)
+        {
+            while (!int.TryParse(text, out _))
+            {
+                Console.WriteLine("Ââåäåí íåêîğåêòíûé ñèìâîë");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+            num = Convert.ToInt32(text);
+            if (num > 4 || num < 1)
+            {
+                Console.WriteLine("Ââåäåíî íåêîğåêòíîå ÷èñëî");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+        }
         switch (num)
         {
             case 1:
@@ -212,14 +264,31 @@ internal class Program
     public void ThirdTask()
     {
         Methods metod = new Methods();
-        int num;
+        string text;
+        int num = 0;
         Console.WriteLine("1. ×èñëà íàîáîğîò");
         Console.WriteLine("2. Ñòåïåíü ÷èñëà");
         Console.WriteLine("3. Îäèíàêîâîñòü");
         Console.WriteLine("4. Ëåâûé òğåóãîëüíèê");
         Console.WriteLine("5. Óãàäàéêà");
         Console.Write("Âûáåğèòå çàäà÷ó: ");
-        num = Convert.ToInt32(Console.ReadLine());
+        text = Console.ReadLine();
+        while (num > 4 || num < 1)
+        {
+            while (!int.TryParse(text, out _))
+            {
+                Console.WriteLine("Ââåäåí íåêîğåêòíûé ñèìâîë");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+            num = Convert.ToInt32(text);
+            if (num > 4 || num < 1)
+            {
+                Console.WriteLine("Ââåäåíî íåêîğåêòíîå ÷èñëî");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+        }
         switch (num)
         {
             case 1:
@@ -284,14 +353,31 @@ internal class Program
         {
             array[i] = rand.Next(-5, 10);
         }
-        int num;
+        string text;
+        int num = 0;
         Console.WriteLine("1. Ïîèñê ïîñëåäíåãî çíà÷åíèÿ");
         Console.WriteLine("2. Äîáàâëåíèå â ìàññèâ");
         Console.WriteLine("3. Ğåâåğñ");
         Console.WriteLine("4. Îáúåäèíåíèå");
         Console.WriteLine("5. Óäàëèòü íåãàòèâ");
         Console.Write("Âûáåğèòå çàäà÷ó: ");
-        num = Convert.ToInt32(Console.ReadLine());
+        text = Console.ReadLine();
+        while (num > 4 || num < 1)
+        {
+            while (!int.TryParse(text, out _))
+            {
+                Console.WriteLine("Ââåäåí íåêîğåêòíûé ñèìâîë");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+            num = Convert.ToInt32(text);
+            if (num > 4 || num < 1)
+            {
+                Console.WriteLine("Ââåäåíî íåêîğåêòíîå ÷èñëî");
+                Console.Write("Âûáåğèòå çàäàíèå: ");
+                text = Console.ReadLine();
+            }
+        }
         Console.WriteLine("Ìàññèâ:");
         Console.Write("[ ");
         for (int i = 0; i < array.Length; i++)
